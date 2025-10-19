@@ -1,0 +1,16 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "> ⚡ Predict optimal transaction times and gas fees using AI and real-time blockchain data.",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "npm run start:dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
