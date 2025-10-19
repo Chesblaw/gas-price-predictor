@@ -1,24 +1,86 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+.history/
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
 
 # Logs
 logs
 *.log
+*.out
+*.err
+
+# Build / dist folders
+dist/
+build/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# npm global packages
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+# TypeScript
+*.tsbuildinfo
 
-# temp directory
-.temp
-.tmp
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env/
+venv/
+env/
+.venv/
+__pypackages__/
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+
+# Docker files
+*.pid
+*.sock
+docker-compose.override.yml
+docker-compose.override.*.yml
+docker-compose.*.local.yml
+
+# Docker volumes / temp
+tmp/
+*.tmp
+*.swp
+
+# Logs & Reports
+coverage/
+reports/
+*.lcov
+
+# Misc
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+*.iml
+out/
